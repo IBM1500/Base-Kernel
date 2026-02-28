@@ -25,6 +25,7 @@ charp:
     mov al, [msg+si]
     int 0x10
     inc si
+    cmp si,10
     jl charp ;i split my brain in half trying not to use hlt just to know there is a jl/jb ins
     ret
 msg db 'OK. Kernel'

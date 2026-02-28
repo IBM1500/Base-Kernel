@@ -1,5 +1,5 @@
 ;kernel;
-org 0x8080 ;start from bootloader
+org 0x8086 ;start from bootloader
 bits 16
 
 start:

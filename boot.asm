@@ -7,7 +7,7 @@ start:
     mov ch,0
     mov cl,2
     mov dh,0
-    mov bx,0x8080 ;funny memory address
+    mov bx,0x8086 ;funny memory address
     int 0x13 ;bios wake up
     mov ah,0x0e
     mov al,"O"

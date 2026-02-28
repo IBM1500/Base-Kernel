@@ -18,6 +18,6 @@ start:
     mov ah,0x0e
     mov al,"."
     int 0x10
-    jmp 0x8080 ;jmp to kernel32.asm. if i didnt fuck anything up
+    jmp 0x8086 ;jmp to kernel32.asm. if i didnt fuck anything up
 times 510-($-$$) db 0xF1
 dw 0xaa55
